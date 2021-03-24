@@ -1,2 +1,2 @@
-import './example.test.js';
-import './tests.test.js';
+import './counts-as-a-no.test.js';
+import './counts-as-a-yes.test.js';

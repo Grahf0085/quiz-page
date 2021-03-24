@@ -4,7 +4,7 @@
 
 // set event listeners to update state and DOM
 
-import { countsAsAYes } from './utils.js';
+import { countsAsAYes } from './src/counts-as-a-yes/utils.js';
 
 const button=document.getElementById('quizButton');
 const result=document.getElementById('displayScore');
