@@ -9,39 +9,45 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/home.css">
-    <title>Document</title>
+    <title>Quiz yourself on Arch!</title>
 </head>
 
 <body>
     <header>
-        <div class="gutter-right logo">
-            <img src="assets/big-logo.png"/>
-        </div>
+        <img src="https://pedronveloso.com/content/images/2016/02/archlinux-logo-dark-1200dpi-b42bd35d5916-2.png" alt="arch logo">
     </header>
     <main>
-        <section class="main-section">
-            <img class="main-logo" src="assets/alchemy-logo.png"/>
-            <h2>
-                Welcome to Alchemy Bootstrap!
-            </h2>
-
-            <content>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis exercitationem?
-            </p>
-            <hr />
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis exercitationem?
-            </p>
-
+        <section class="top">
+            <h2>Overview</h2>
+            <p>Arch Linux is a Linux distribution for computers with x86-64 processors. Arch Linux adheres to the KISS principle ("Keep It Simple, 
+                Stupid") and is focused on simplicity, modernity, pragmatism, user centrality, and versatility. In practice, this means the project 
+                attempts to have minimal distribution-specific changes, and therefore minimal breakage with updates, and be pragmatic over ideological 
+                design choices and focus on customizability rather than user-friendliness. A package manager written specifically for Arch Linux, Pacman,
+                is used to install, remove and update software packages. Arch Linux uses a rolling release model, meaning there are no "major releases" of 
+                completely new versions of the system; a regular system update is all that is needed to obtain the latest Arch software; the installation 
+                images released every month by the Arch team are simply up-to-date snapshots of the main system components. Arch Linux has comprehensive 
+                documentation, which consists of a community wiki known as the ArchWiki.</p>
+        </section>
+        <section class="middle">
+            <h2>Features</h2>
+            <ol>
+                <li>Rolling Release - Updated EVERY MINUTE</li>
+                <li>Arch User Respository - Lots of projects people work on on github</li>
+                <li>Impossible to Install - unless you have a phD in CS</li>
+                <li>Nice Wiki</li>
+                <li>Mean People</li>
+            </ol>
+        </section>
+        <section class="bottom">
+            <h2>Quote</h2>
+            <ul>
+                <li>"Relying on complex tools to manage and build your system is going to hurt the end-users. [...] "If you try to hide the complexity of the system, you'll end up with a more complex system". Layers of abstraction that serve to hide internals are never a good thing. Instead, the internals should be designed in a way such that they NEED no hiding.""
+                — Aaron Griffin</li>
+            </ul>   
+        </section>
+        <section class="quiz">
+            <button id="quizButton">Quiz Yourself!</button>
+            <div id="displayScore"></div>
         </section>
     </main>
     <footer>
